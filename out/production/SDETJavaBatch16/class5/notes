@@ -1,0 +1,36 @@
+if-else:
+We have a condition based on that condition we perform some tasks.
+*Why should we learn about if-else conditions:
+-With the help of if-else conditions we can write programs which can take decisions based on conditions.
+-Syntax(Rule): if(){} ; if(*condition to put here){*code/"text" that we want to execute once the condition is true}
+we can use any data type(but java converts it to boolean data type) to write this condition part with the help of relational operators such as (== != > < >= <=).
+Once the codition is true ,java executes all the code that we write in {}.
+
+Logical Operators:
+-Logical operators help us combine multiple conditions.There are 3 main types of it :AND(&&) OR(||) NOT(!).These operators
+work with boolean data type
+*Why should we use logical operators?
+The help us simplify the logic
+How does the logical NOT ! works?
+Logical NOT operator is used to convert a true value to a false value or a false value to a true value;
+Example:
+sout !true=false
+boolean var1=false;
+var1=!var1;
+sout var1=>true;
+String country="Korea";
+of(!country.equals("Korea")){
+sout "You are welcome"
+}
+Logical OR ||:
+Logical OR operator helps us combine multiple conditions.
+When we want to execute something as soon as one condition becomes true.
+we should be using logical OR
+Example:
+true||true=>true
+false||true=>true
+true||false=>true
+true||false||true=true
+false||false=>false -when both conditions are false (we can have lots of conditions as long as one condition is true then it will be true
+
+Logical AND Operators
