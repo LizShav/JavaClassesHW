@@ -14,7 +14,7 @@ public class hw7DueApr15 {
             if(number>largeNum){
                 largeNum=number;
             }
-            
+
 
 
         }System.out.println(largeNum);

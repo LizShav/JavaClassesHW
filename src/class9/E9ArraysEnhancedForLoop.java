@@ -1,6 +1,7 @@
 package class9;
 /*
 Enhanced for loop-designed for arrays to make it easier to get all the values
+shortcut is type iter-enter
  */
 public class E9ArraysEnhancedForLoop {
     public static void main(String[] args) {
