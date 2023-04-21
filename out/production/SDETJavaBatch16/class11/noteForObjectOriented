@@ -1,0 +1,15 @@
+/*
+Object oriented programming:
+-also known as OOPs is nothing but some set of rules that we follow , will have below benefits,
+
+1) code will be organized
+2) code repetition will be minimized.
+3) changing the code will become easier.
+4) it will become easier to write code by multiple team members
+5) security of your app will increase.
+6) writing code for larger application will become easy
+7) it will help us represent the world around us easily
+
+There are five main concepts that we'll be learning:
+1.classes and objects 2. inheritance 3. polymorphism 4.abstraction 5. encapsulation
+ */
