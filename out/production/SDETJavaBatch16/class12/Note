@@ -1,0 +1,13 @@
+Class:generic structure category, sub-category
+    (can help us organize things,to minimize the repetitions)
+    is a template used to create objects and to define object data types and methods.
+    Advertisements. Classes are categories, and objects are items within each category.
+    All class objects should have the basic class properties.
+
+    The most important things in java:
+    need to know for an interview
+    1.if else
+    2.loops
+    3.arrays
+    4.String class*  String s=new String("Ana");//actual
+                     String string1="Ana";//shortcut
