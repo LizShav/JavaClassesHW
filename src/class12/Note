@@ -11,3 +11,17 @@ Class:generic structure category, sub-category
     3.arrays
     4.String class*  String s=new String("Ana");//actual
                      String string1="Ana";//shortcut
+
+   ** A class is a template or a blueprint out which objects are created.
+    Why should we use classes:
+    1. They help us organize our code.
+    2.Represent real life entities in code.
+    3.Classes help us reuse code.
+    Syntax:
+    class ClassName{
+    define field/properties/attributes here in the form of primitive and non primitive data types
+    defines methods here
+    }
+
+    Some very famous classes in Java:
+    1)String
