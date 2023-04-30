@@ -1,0 +1,80 @@
+Methods :
+huge part of the interviews . Understanding which methods are doing what ...
+*** in Java, a method is a block of code or a collection of statements that perform a specific task.
+    It is designed to perform a particular function or piece of logic within a program.
+    We can create a method and then call it multiple times from different parts of the program
+    rather than repeating the same block of code in multiple places.
+
+    We write the code that we want to be executed inside the method body
+    and then call the method from the main method to execute that code.
+    This helps us write reusable code that can be called from multiple places in our program.
+
+1) are blocks of code which are executed when methods is called.
+2) Methods in java return types(output of  a method) for example void, String , int , char etc..
+3) They can also take parameters(input).
+           Parameters can be primitive(int,char,byte..) and non-primitive(scanner, string, arrays,dog, cat) type
+4) Body of the method can contain any logic like arrays, loops, switch start with {}
+
+*** Why should we use methods?
+1) code re-usability
+2) organization
+3) changing the code becomes easier
+
+How to create methods in Java?
+==================================================================================
+
+Types of variables w.r.t. scope (coverage, reach, life span, visibility ,accessibility)
+There are 3 types of variables with respect to scope.
+1.Local 2. Instance 3. Static.
+    *1) LOCAL VARIABLES- created inside of block code and they can only be accessed within that block.
+for Example all the variables that we create INSIDE methods, if statement, switch case statements,loops etc..
+WHEN we should use LOCAL variable: Always whenever possible.
+
+    **Benefits of LOCAL :>This helps with memory management, as the variable is automatically destroyed
+                       once the method is exited.
+                       >They also don't interfere with other methods or threads that may be using the same variable name.
+                       *>Local variable stay shorter in the memory
+             the moment that the block of code is done executing , memory is freed and available to be re-used
+         *We can reuse the same name for other variables in OTHER BLOCKS of code, NOT IN THE SAME BLOCK of CODE
+
+
+    **Downside of LOCAL : *>They have limited visibility.They cannot be used outside of
+                           block in which they are created.
+                          *>Initialization is mandatory for local variables,
+                          and failure to do so results in a compilation error.
+
+    *2) INSTANCE VARIABLES- are created OUTSIDE of any block of code like method, loop, if statement etc, but they
+ are inside the class. EX: String name; and outside of a method.Instance variables are non-static variables
+  and are declared in a class outside of any method, constructor, or block.
+  WHEN we should use INSTANCE variable:
+        1)If we have to share something in more than 1 instance method
+        2)When we are planning to create multiple object of a class and these objects can
+        have diff values for different objects we should go for instance variables
+
+  **Benefits of INSTANCE:  >can be used without initializing.
+                           >can be shared between all instance methods of a class
+  **Downside of INSTANCE:> they tend to occupy the memory longer as compared to local variable
+                         > they are hard to debug
+
+
+
+    *3) STATIC VARIABLES- all the instance variable with static keyword are called STATIC variables
+    WHEN we should use STATIC variables:
+        1)when we want to share something globally in ALL classes, methods, blocks of code
+        2)Mostly used to create constants(things that never change)ex: pi=3.14 never change
+        like- # of months, # of days, value of PI , value of Gravity
+
+    **Benefits of STATIC:>memory efficiency, global access, object independence,
+                         performance, and code organization
+                         >They can be shared across instance methods, static methods and all the
+                         instances of a class.ex:Static-president US, local -mayor of each state
+                         >can be accessed outside of the class as well.ex class15 E5Instance
+                         >only 1 memory location is reserved for static variable , even though
+                         create  lots of objects of the class
+                         >earliest and stays the longest.
+
+    **Downside of STATIC:>the code can be hard to debug if we don't use final keyword
+                         >if value is changed anywhere in the code , it gets changed for the complete app.
+
+
+

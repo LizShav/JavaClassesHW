@@ -20,7 +20,7 @@ public class Task9ProjectDueApr22 {
                 }
             }
         }
-        System.out.println("Third second largest number is:: "+array[size-2]);
+        System.out.println("Second largest number is:: "+array[size-2]);
 
     }
 }
