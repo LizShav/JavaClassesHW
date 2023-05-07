@@ -1,0 +1,29 @@
+Constructor:
+*interview questions possible
+    A constructor is a special method that is automatically called when an object of a class is created.
+    It is used to initialize the object with the values provided as arguments to the constructor.
+    If no constructor is defined in a class, a default constructor is automatically created by Java.
+Rules:
+    1) Constructors must have same name as class name.
+    2) Constructors don't have return types, not even void.
+    if we put a return type then it'll become a method and no we should not use it
+    3) when we do not create a constructor in a class , Java creates a default constructor for us
+    automatically behind the scenes ex: Cat(){}. It is called default constructor.
+    It does not take any parameters().
+
+Note:    To create a constructor after instance variable declared
+right click-> generate->constructor->hold shift button and arrow down to select all variables ->ok
+
+How to we know if we should go with instance or static methods?
+    Whenever we are suing instance variables in a method we must go with instance
+    methods. however if you are not using any instance variables you should go
+    with static.
+
+
+  Task2:(hw to observe , try it )
+  Write a java Class Students that have a constructor
+  which takes students name and 3 subject grades.
+  Inside your class also have a method to Calculate
+  Average Grade. Test Student class for 5 different
+  students with different marks. Your program should
+  print an average mark of each students name.

@@ -1,0 +1,13 @@
+4 types of Inheritance in Java
+1. Single Inheritance(simple one)
+    always 1 parent class and 1 child class-> Phone class(parent) -Iphone(child class)
+
+2. Hierarchical Inheritance
+    has 1 parent class and multiple child classes     -> Vehicle class(parent) -Audi, BMW , Tesla (children classes)
+
+3. Multilevel Inheritance
+    1 parent - 1 child class- multiple intermediate base classes.
+
+4. Multiple inheritance
+    two parent classes , same methods , body is different , 1 child class: diamond problem its called
+    Java doesn't allow this type of inheritance
